@@ -1,0 +1,146 @@
+*{margin: 5px 5px 5px 5px;
+padding: 0px 0px 0px 0px;
+font-size:clamp(12px,4vw,18px);
+font-family: Arial, sans-serif; 
+
+
+}
+a {text-align: center;text-decoration: none;}
+#disp-view{margin: auto; height: auto;width:99%; background-color: #bcbcff;}
+/*--------Landing image section controls-----------------------*/
+#landing-cont{  height: 410px;width:98.5%;border-radius: 35px;margin:auto;border:0.7rem solid rgb(0, 216, 245);border: none;}
+.bgscrollimg{ box-shadow: 10px 8px 10px green;height: 390px;width:97%;border-radius: 0px 35px 0px 35px ;margin:17px ;background-size: cover;background-position: center;background-image:url(https://kamatharjun.b-cdn.net/wp-content/uploads/2022/04/Indian-Destination-Wedding-Gujarat-Nidhi-Shirish-104.jpg);
+            animation: bganime 8s infinite;}
+            @keyframes bganime {
+                0%{ box-shadow: 0px 10px 8px 10px blue;border:1px solid yellow;border-radius: 390px;width:97%;border-radius: 0px 35px 0px 35px ;margin:17px ;background-size: cover;background-position: center;background-image: url(https://kamatharjun.b-cdn.net/wp-content/uploads/2023/06/Prewedding-Photoshoot-Priyanka-Prito-21.jpg);}
+                25%{ box-shadow:0px  10px 8px 10px violet;border:1px solid yellow;height: 390px;width:97%;border-radius: 0px 35px 0px 35px ; margin:17px ; background-size: cover;background-position: center;background-image:url(https://kamatharjun.b-cdn.net/wp-content/uploads/2023/03/South-Indian-wedding-photography-PA-123.jpg);}
+                50%{   box-shadow:0px  10px 8px 10px greenyellow; border:1px solid yellow;height: 390px;width:97%;border-radius: 0px 35px 0px 35px ;margin:17px ;background-size: cover;background-position: center;background-image: url(https://kamatharjun.b-cdn.net/wp-content/uploads/2023/12/Wedding-Anniversary-Celebration-Chitra-Muthu87.jpg);}
+                75%{box-shadow: 0px 10px 8px 10px red;border:1px solid yellow;height: 390px;width:97%;border-radius: 0px 35px 0px 35px ;margin:17px ;background-size: cover;background-position: center;background-image: url(https://kamatharjun.b-cdn.net/wp-content/uploads/2023/04/wedding-Haldi-Photoshoot-in-Hyderabad-42.jpg);}
+                100%{ box-shadow: 0px 10px 8px 10px orange;border:1px solid yellow;height: 390px;width:97%;border-radius: 0px 35px 0px 35px ;margin:17px ;background-size: cover;background-position: center;background-image: url(https://kamatharjun.b-cdn.net/wp-content/uploads/2023/03/South-Indian-wedding-photography-PA-123.jpg);}
+                
+            }
+
+
+
+
+
+#top-content{ height:5rem;width:100%;display: flex;margin:auto;   
+    position: sticky;top: 5px;background-color:white; padding: 10px 20px;z-index: 1000;  }
+    
+#header{height: 50px;width:30%; background-color: transparent;display: flex;margin-bottom: 5px; }
+#header img{background-color: none;height:80px;}
+#header h1{background-color: none;height:60px;width: auto;margin: 13px 0px 0px 10px;font-size:  30px;
+    color:rgb(0,0,255)}
+
+#nav-bar{height: 60px;width:65%;padding-bottom: 25px;margin-left:0px;position:flex;background-color: transparent;}
+#main-menu  {width:100%;height:60px; ;list-style-type: none;margin-right: 120px;}
+.menu-item {margin:25px;padding: 10px; border-radius: 30px;display:inline-block;color: white;margin-left:10px;
+    background-color: rgba(4, 0, 255,9);border-top: 0.3rem solid rgb(255, 0, 255);border-right: 0.3rem solid rgb(255, 0, 255); list-style-type: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+
+.menu-item:hover{ background-color: white;color:Blue;border-top:0.3rem solid rgb(255, 0, 255);border-right:0.3rem solid rgb(0, 0, 255); border-bottom:0.3rem solid rgb(255, 0, 255);border-left:0.3rem solid rgb(0, 0, 255);cursor:pointer; padding: 0.4rem; font-size: 1rem; }
+.menu-item a{text-decoration: none;padding: 10px;color:white;} 
+.menu-item a:hover{color:blue;}
+
+#main-content{height: auto; width:100%;line-height:30px; }
+.firsr-cont{background-color:#FFFFFF ; height:auto;width:99%;display: flex;border:2px solid #777;margin:10px;}
+.firsr-cont article{height: auto;width:60%;text-align: justify;overflow-wrap:wrap ;}
+.firsr-cont article p{margin:10px 5px 5px 30px; width:90%;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.firsr-cont h2,.firsr-cont1 h2{font-size: 25px;font-family:Georgia, 'Times New Roman', Times, serif;}
+
+.firsr-cont video{background-color: none;max-height:300px;border-radius: 50px 0px 35px 0px;position: relative;  }
+.firsr-cont1{line-height:30px;height:auto;width:99%;display:block;border:2px solid #777;margin:10px;background-repeat: no-repeat; background-position: center; background-size: cover;
+     background-image: url(https://leica-camera.com/sites/default/files/styles/hero_image/public/2023-05/prefix-0/leica_q3_hero_image_3840x1780.png?h=9b4f521e&itok=kEiDudgW) ;}
+.firsr-cont1 article{height: auto;width:60%;text-align: justify;overflow-wrap:wrap ;color:white;font-size: 20px;float:center;margin:20px 10px 0px 650px;}
+.firsr-cont1 article p{Width:70%;margin:40px 40px 5px 0px; width:90%;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+
+/* for servicees css*/
+#services{height: auto;width:100%;background-image:url(https://static.vecteezy.com/system/resources/thumbnails/003/205/303/small/empty-wall-for-your-text-and-images-illustration-free-vector.jpg);margin: auto; }
+#bannerimg h1{width:100px;font-size: 20px;margin-left:43%;padding: 10px 25px 10px 40px;border:2px solid rgb(161, 3, 3);border-top:2px solid rgb(1, 0, 255) ;border-right:2px solid rgb(1, 0, 255) ; background-color: white;color: blue;border-radius: 40px 0px 40px 0px;}
+#servicesdiv{height:80px;padding-bottom: 10px;}
+#servicesdiv ul{display: flex;margin-left:40px;justify-content: space-around;}
+#servicesdiv ul li{align-content:center;list-style-type: none;text-align: justify; text-transform: capitalize;text-align: center; padding: 15px;margin:10px;border-radius: 50px;
+    background-color: blue;color:rgb(255, 254, 255);width: 90px; grid-auto-flow: row ;border-top:4px solid black;border-bottom:4px solid black;width:10%;}
+    #servicesdiv ul li:hover{box-shadow: 0px 0px 30px 2px green inset;transition:0.5s; font-size: 0.8rem; list-style-type: none;text-transform:uppercase;text-align: center; padding: 10px;margin:10px 30px 10px 30px;
+        background-color:white;color:blue;width: 110px; grid-auto-flow: row ;border:2px solid rgb(0, 182, 55);}
+        #txtforani {font-size:60px ;color:blue;padding: 40px; animation: txtchange 4s infinite; margin:60px 0px 0px 250px; }
+        #bannerimg img{height: 60px;width: 60px;border-radius: 40px;margin-left: 700px;margin-top:15px ;}
+        @keyframes txtchange {
+            0%{ color:rgb(253, 17, 0);}
+            50%{color:rgb(140, 40, 255);}
+            100%{ color:rgb(21, 187, 6);}
+                       
+        }
+
+/*for galary view */    
+#gallary  {height: auto;width:99%;background-image: url(https://img.freepik.com/free-photo/beautiful-wedding-flower_1232-3075.jpg?w=1060&t=st=1711876819~exp=1711877419~hmac=47cd3b817310baff3eea1b61be81e40e843e3a3196bbf600605ad8247647c9d3);}
+#gallary H1{width:180px;font-size: 20px;margin-left:43%;padding: 10px 25px 10px 25px;background-color: white;color: blue;border-radius: 0px 40px 0px 40px;}
+.galsec{display: flex;height: auto;padding:2px;margin-top:80px; width:80%;justify-content: space-evenly;margin-left:10%;}
+.galimg{max-width:150px;max-height: 150px;margin:5px;border: 1px solid blue;box-shadow: 40px 40px 80px 2px white;}
+
+/*For blog content css*/
+#ourblog{height: auto;width:99.5%; background-color: rgb(252, 85, 85);background-image: url(https://wallpaperset.com/w/full/c/e/f/538289.jpg);
+            background-size: cover;background-position: center;background-repeat: no-repeat;}
+#posmaker{display: flex;margin:5px 5px 5px 40px;justify-content:center;}
+.blogpost{width:200px; height:auto; background-color:rgba(238, 68, 229, 0.3);text-align: center;margin-left:35px;border:2px solid red;}
+.blogimg{width:140px;height:100px;margin:20px 0px 5px 16px;}
+.blogcontent h3{border:2px solid  blueviolet;background-color: white;color:blue;padding: 10px;width:120px;margin:5px 5px 5px 20px;line-height: 10px}
+#ourblog h1{text-align: center;float: center;height: 20px;width: 100%;font-size: 30px;padding:10px;line-height: 15px;}
+#ourblog p{line-height: 20px;font-weight: bold;font-size: 15px;}
+
+
+
+/*for contact details*/
+#contact-form{height: auto;width:100%; background-color: rgb(221, 195, 195);display: flex;margin:10px 0px 0px 0px;
+background-image: url(https://cdn.pixabay.com/photo/2023/04/18/20/21/flowers-7935944_640.jpg);background-position: center;background-size: cover;}
+#form{height:390px;width:510px; margin:5px 0px 5px 0px; border-right:3px solid green;border-left:3px solid green; border-radius: 35px;background-color: rgba(0, 0, 255,0.2);}
+#form:hover{height:390px;width:510px; margin:5px 0px 5px 0px; border-right:4px solid green;border-left:4px solid green; border-radius: 30px;background-color: rgba(0, 0, 255,0.5);}
+#form:hover #cont-title{background-color: rgba(255, 255, 255, 1) ;font:1.2rem;color: black;border:3px solid rgb(11, 255, 11);}
+
+
+
+
+#rname,#remail,#number,#subj,#msgbox,#submitbutton, #cont-title{flex-grow: 1; border: none;border-right: 3px solid red;
+    border-left: 3px solid red;border-radius: 25px;text-align: center;padding: 8px;margin: 15px ; font-size: 0.8rem;}
+#cont-title{background-color: rgba(255, 0, 0,0.7) ;font-size: 20px;color: rgb(229, 255, 0);border-left:3px solid blue;border-right:3px solid blue;}
+#msgbox{width: 90%;}
+input::placeholder{color: rgb(84, 109, 255); position: center;}
+#rname,#remail,#number,#subj,#msgbox{background-color: rgb(223, 247, 253);color :green;}
+#submitbutton{color:white;background-color: red;width: 60%;}
+#submitbutton:hover{background-color: green;color:white;width: 60%;border:3px solid rgb(33, 3, 201);}
+
+
+
+
+#cont-contact{display: flex;background-color:rgba(0, 0, 255,0.2);margin: 5px;width: 65%;border-radius: 20px; border-right:2px solid green; border-left:2px solid green;}
+#cont-contact:hover{display: flex;background-color:rgba(0, 0, 255,0.4);margin: 5px;width: 63%;border-radius: 40px; border-right:4px solid green; border-left:4px solid green;}
+#cont-us{ width:100%; background-color: rgba(224, 192, 192, 0.2);margin:20px 20px 20px 40px;}
+.cont-art{border-left: 5px dashed yellowgreen; margin:7px; width:80%;font:20px bold black;padding: 10px; background-color: white;border-radius: 25px 0px 0px 25px;}
+#wame{background-color: #1BD741;color: black; border-radius: 40px 40px 40px 0px;border:2px solid rgb(248, 6, 6);padding: 10px 40px;margin:10px 10px 5px 130px;}
+#cont-us:hover{width:100%; background-color: rgba(255, 255, 255, 0.7);margin:20px 20px 20px 40px; color :black; font:20px bold black; border:2px solid green;border-radius: 40px 0px 40px 0px;}
+.cont-art:hover {margin:8px; color:black;width:90%;font:30px bold ;padding: 10px;border-radius: 25px 0px 0px 25px;background-color: #1BD741;}
+#cont-us:hover #wame{ background-color: #ffffff; color: #049121; border-radius: 0px 30px 0px 30px;border:2px solid rgb(0, 0, 255);padding: 9px 50px;margin:9px 9px 4.5px 130px;}
+
+#social-icons{width:80px;margin:40px 20px  20px 10px;}
+.icons {border:2px solid yellow;height: 50px; width:50px; margin:10px 10px 10px 10px;}
+
+
+
+/* for faq section*/
+#faq{background-color: none; background-image: url(https://img.freepik.com/free-vector/white-minimal-hexagons-background_79603-1452.jpg);height:auto;width: auto;}
+
+#faq fieldset{background-color:rgba(245,186,252,0.3); height: auto;width:60%;margin-left: 20%;display: inline-block;}
+#faq fieldset legend{ font-size:20px;text-align:center;background-color: blue;border-radius: 25px 0px 25px 0px;padding: 10px;color: rgb(255, 225, 57)}
+details{width:auto;border:2px solid red;text-align: center; padding: 5px;border-bottom:none;background-color: #bcbcff;border-radius: 25px 0px 30px 0px;}
+summary:hover{color:blue;background-color: white;cursor:pointer;}
+
+#footer{height:auto; width: 100%;display: flex; background-image: url(https://t3.ftcdn.net/jpg/06/98/84/08/360_F_698840806_D9emmyrcqC9sus1sXpAEROwkWLMvGdIM.jpg);background-size: cover;background-position: center;}
+.foot-cont{height: auto; width:25%;background-color: rgba(26, 26, 26, 0.4);margin: 10px 20px 10px 20px;border-radius: 25px;}
+.foot-cont h3, .foot-cont h1{font-size: 20px ;color: rgb(251, 255, 39);padding-top: 40px;}
+#map{float: center;width: 99.5%;height: auto;}
+
+.foot-cont p{font-size: 20px ;color: rgb(255, 255, 255);padding: 5px;margin-left:10px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.publogo{height: 80px;width:80%;margin-left: 30px;}
+.foot-cont a{font-size: 20px ;color: rgb(255, 255, 255);padding: 5px;margin-left:10px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#copy{background-color: black;text-align: center;color: white;padding: 3px;}
